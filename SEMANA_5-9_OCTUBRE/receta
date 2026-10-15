@@ -1,0 +1,24 @@
+  System.out.println("*** Recetas de Cocina ***");
+
+        Scanner consola = new Scanner(System.in);
+
+        // Solicitar los valores de la receta
+        System.out.print("Ingresa el nombre: ");
+        String nombreReceta = consola.nextLine();
+
+        System.out.print("Ingresa los ingredientes: ");
+        String ingredientes = consola.nextLine();
+
+        System.out.print("Ingresa el tiempo de preparación (min): ");
+        int tiempoPreparacion = Integer.parseInt(consola.nextLine());
+
+        System.out.print("Ingresa la dificultad: ");
+        String dificultad = consola.nextLine();
+
+        System.out.println("\n--- Receta de Cocina ---");
+        System.out.println("Nombre receta: " + nombreReceta);
+        System.out.println("Ingredientes: " + ingredientes);
+        System.out.println("Tiempo de preparación: " + tiempoPreparacion);
+        System.out.println("Dificultad: " + dificultad);
+
+        consola.close();
