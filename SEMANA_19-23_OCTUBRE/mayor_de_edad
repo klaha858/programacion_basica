@@ -1,5 +1,6 @@
-Algoritmo MayorDeEdad
+Algoritmo NumeroPar_Impar
 	Definir edad Como Entero
+	Escribir "digite su edad"
 	leer edad
 	si edad >= 18 Entonces
 		Escribir "es mayor de edad"
