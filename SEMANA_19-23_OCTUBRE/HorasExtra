@@ -1,0 +1,15 @@
+Algoritmo PagoHoras
+	definir horas, extras, sueldo Como entero 
+	escribir "ingrese horas trabajadas:"
+	leer horas
+	Si horas>42 Entonces
+		extras= (horas-42)*(8838*1.5) 
+		sueldo=8838*42
+		Escribir "el sueldo es: ", sueldo," pesos"
+		Escribir "las horas extra son: ", extras," pesos"
+		Escribir "el sueldo total es : ", sueldo+extras," pesos"
+	SiNo
+		sueldo=horas*8838
+		escribir "el sueldo es de: ", sueldo," pesos"
+	Fin Si
+FinAlgoritmo
