@@ -1,0 +1,13 @@
+Algoritmo ValidarNota
+	definir nota Como Real
+	Escribir "digite su nota"
+	leer nota
+	Si nota >= 0 Y nota <=5.0 Entonces
+		Escribir "nota valida"
+	SiNo
+		Escribir "nota fuera de rango"
+	Fin Si
+	
+	
+	
+FinAlgoritmo
