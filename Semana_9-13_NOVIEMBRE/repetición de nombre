@@ -1,0 +1,12 @@
+Algoritmo ciclo
+	Definir i,N Como Entero
+    Definir nombre Como caracter
+    Escribir "ingrese nombre:"  
+    leer nombre
+    Escribir "ingresar repeticiones:"
+    leer N
+    Para i <- 1 Hasta N Hacer
+    Escribir nombre
+    FinPara
+    Escribir "la cantidad de veces que se escribio es: ",N
+FinAlgoritmo
