@@ -1,0 +1,12 @@
+Algoritmo ciclo
+	Definir i,suma,N Como Entero
+    Escribir "de un numero"
+    leer N
+    suma<-0
+    Para i <- 1 Hasta N Hacer
+    suma<-suma+i
+    Escribir "el resultado de la suma es: ",suma
+    FinPara
+        Escribir "la cantidad de veces sumadas es: ",N
+        Escribir "Y la suma es: ",suma
+FinAlgoritmo
