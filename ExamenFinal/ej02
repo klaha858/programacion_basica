@@ -1,0 +1,12 @@
+Algoritmo ej02
+      Definir a, b Como Real
+      escribir "ingrese el primer numero"
+      leer a
+      Escribir "escriber el segundo numero"
+      leer b
+      Si a>b Entonces
+            Escribir "el mayor numero es: ", a
+      SiNo
+            escribir "el numero mayor es: ", b
+      Fin Si
+FinAlgoritmo
