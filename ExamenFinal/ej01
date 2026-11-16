@@ -1,0 +1,10 @@
+Algoritmo ej01
+      Definir salario, salarioFinal Como Real;
+    Escribir "Ingrese el salario mensual del empleado:";
+    Leer salario;
+    salarioFinal <- salario
+    Si salario < 1500000 Entonces
+        salarioFinal <- salarioFinal + 200000
+    FinSi
+    Escribir "El salario final del empleado es: ", salarioFinal
+FinAlgoritmo
